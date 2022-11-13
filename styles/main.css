@@ -42,27 +42,72 @@ ol[class] {
   margin-top: var(--flow-spacer, var(--spacer));
 }
 /* Start Here */
-header{
+body{
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  padding: 35px 150px;
 
+}
+
+header{
+  display: inline-block;
 }
 h1{
   font-size: 6.4rem;
+  font-family: 'Poppins', sans-serif;
+  color: #F55D3A;
 }
 h2{
   font-size: 3.2rem;
+  font-family: 'Lora', serif;
 }
 h3{
   font-size: 2.8rem;
+  font-family: 'Poppins', sans-serif;
 }
 p{
   font-size: 1.8rem;
+  font-family: 'Lora', serif;
 }
 li{
+  display: inline-block;
   font-size: 1.8rem;
+  padding-right: 5px;
+  font-family: 'Poppins', sans-serif;
 }
+
+div.author{
+  display: inline-flex;
+}
+.authors{
+  text-align: center;
+}
+
 .logo{
   font-size: 2.6rem;
+  font-family: 'Poppins', sans-serif;
+}
+.sign-up{
 }
 a{
   font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
 }
+.pumpkin{
+  height: 25rem;
+  float: right;
+}
+.hero{
+  padding: 10rem 1rem 25rem;
+}
+.opening{
+  margin-top: 5rem;
+}
+.subtitle{
+  text-align: center;
+}
+
+
+
+
